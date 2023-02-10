@@ -1,0 +1,15 @@
+More instructions about emails. Maybe button to confirm instead of hitting done
+
+Online Multiplayer: Sockets Server?
+
+Program Structure:
+
+	Main Menu:
+		Play Local - goes to what already exists
+		Play Online
+			Host on this machine
+				shows you your ip, tells you to give it to your friend
+			Connect to a host
+				asks you to put in host ID, if it works takes you to regular game, if not, give error message and retry
+				
+			Clients send mouse info to server, server sends board info to clients
